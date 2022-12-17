@@ -11,6 +11,7 @@ import panel from './Panel.vue';
 import annotate from './annotations/Annotate.vue';
 import aPoint from './annotations/AnnotatePoint.vue';
 import pic from './Pic.vue';
+import flipCard from './FlipCard.vue';
 import quiz from './questions/Quiz.vue';
 import question from './questions/Question.vue';
 import qOption from './questions/QOption.vue';
@@ -40,6 +41,7 @@ const components = {
   annotate,
   aPoint,
   pic,
+  flipCard,
   quiz,
   question,
   qOption,

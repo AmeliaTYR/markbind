@@ -91,11 +91,10 @@
 <script>
 import {
   STATE_CORRECT,
+  STATE_QUIZ_FRESH,
+  STATE_QUIZ_IN_PROGRESS,
+  STATE_QUIZ_DONE,
 } from './QuestionConstants';
-
-const STATE_QUIZ_FRESH = 3;
-const STATE_QUIZ_IN_PROGRESS = 4;
-const STATE_QUIZ_DONE = 5;
 
 export default {
   name: 'Quiz',
